@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+    float n1, n2, calc;
+    
+int main() {
+    
+    printf("Digite a primeira nota: ");
+    scanf("%f", &n1);
+    
+    printf("Digite a segunda nota: ");
+    scanf("%f", &n2);
+    
+    calc = (n1 + n2)/2;
+    
+    if(calc >= 6) {
+        
+        printf("APROVADO\n");
+        printf("Sua nota foi: %.2f", calc);
+        
+    } else {
+        
+        printf("REPROVADO\n");
+        printf("Sua nota foi: %.2f", calc);
+        
+    }
+    
+    return 0;
+}

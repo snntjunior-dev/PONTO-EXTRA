@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+    int apple, x;
+    float calc;
+    
+int main() {
+    
+    printf("Quantas maçãs foram compradas: ");
+    scanf("%i", &apple);
+    
+    if(apple >= 12) {
+        calc = apple * 1;
+        
+        printf("Valor total: %.2f", calc);
+    }else{
+        calc = apple * 1.30;
+        
+        printf("Valor total: %.2f", calc);
+    }
+    
+    return 0;
+}

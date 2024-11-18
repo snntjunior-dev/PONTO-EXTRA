@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+    int x;
+    
+int main() {
+    
+    printf("Digite um número da sua escolha: ");
+    scanf("%i", &x);
+    
+    if (x >= 0) {
+        printf("POSITIVO");
+    }else{
+        printf("NEGATIVO");
+    }
+    
+    return 0;
+}

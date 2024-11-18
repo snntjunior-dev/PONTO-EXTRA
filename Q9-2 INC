@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+    int hora, salt, horae, hotate
+    float salh = 7.06;
+    
+int main() {
+    
+    printf("Quantas horas você trabalhou no mês: ");
+    scanf("%i", &hora);
+    
+    horae = hora - 200;
+    horate = (50 / 100) + 7.06;
+}

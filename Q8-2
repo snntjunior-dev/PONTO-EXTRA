@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+    int hora1, hora2, horat;
+    
+int main() {
+    
+    printf("Digite o horário do inicio do jogo: ");
+    scanf("%i", &hora1);
+    
+    printf("Digite o horário do final do jogo: ");
+    scanf("%i", &hora2);
+    
+    horat = hora2 - hora1;
+    
+    if(horat >= 24){
+        printf("O tempo execeu o limite");
+    }else{
+        printf("A partida durou %i", horat);
+    }
+    
+    return 0;
+}

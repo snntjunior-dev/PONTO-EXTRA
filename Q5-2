@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+    int anon, anot, titulo;
+    
+int main(){
+    
+    printf("Digite o ano que você nasceu: ");
+    scanf("%i", &anon);
+    
+    anot = 2024 - anon;
+    
+    if(anot >= 16) {
+        printf("Você pode votar esse ano");
+        printf("\n");
+        printf("Sua idade é: %i", anot);
+    }else{
+        printf("Você não pode votar esse ano");
+        printf("\n");
+        printf("Sua idade é: %i", anot);
+    }
+    
+    return 0;
+}

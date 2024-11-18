@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+    int x;
+    
+int main() {
+    
+    printf("Digite um número: ");
+    scanf("%i", &x);
+    
+    if (x <= 10) {
+        printf("NÃO É MAIOR QUE 10");
+    } else {
+        printf("É MAIOR QUE 10");
+    }
+    
+    return 0;
+}
